@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 19" width="27" height="19">
+	<title>Footer</title>
+	<defs>
+		<image width="30" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAYAAADXYyzPAAAAAXNSR0IArs4c6QAAAT9JREFUSEvFlj9Sg1AQh78dnMHO3EByA4+QUiq5gdrHGSqls00qmcFevEE6Wr2BN5DcIHZhxuQ5EDB/HOWRPISKYtlvf2/3/Raho0c64vIN9n2vt7CzJ+AMcAwWlAJvVmZfh+FkVuUtwCX0HegZBO6mmlmZ3a/gBXgYuLEoLluEFqmV8Pw4Sq7y9wJ8E7gpitO2wUAajZP+GnznKi2o8KqWhCLEwInWNztB0TgpxK4UNwBHo2Swmol5DHLRFH4QuIINb12vqXoj4PWN0FdvDNxUfVvg3ID+9AJj4A3H83QGzQi4HK5alZsFHQT2g3NnoeQB0FJpBMySCcJ9XS9/O/b9FOs0sSZmG/xfXi1Mo1FSrNxut1N5JfKFvZfxa3bgw8psZ2sfV9b3eZyFAgOjK1KYKng5mtv+jz8QzYqNhn0BpqGlFyhflVwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Social Media ">
+			<use id="YouTube" href="#img1" transform="matrix(1,0,0,1,-1,-2)"/>
+		</g>
+	</g>
+</svg>

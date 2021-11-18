@@ -1,0 +1,86 @@
+.questions {
+    padding: 100px 0 74px;
+    &__container {
+        max-width: 630px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    &__title {
+        font-family: $oswald-regular, $sans-serif;
+        font-size: 30px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: 44px;
+        text-align: center;
+        letter-spacing: 3px;
+        @include breakpoint($mobile-bp) {
+            font-size: 28px;
+            line-height: 38px;
+        }
+    }
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    &__item {
+        position: relative;
+        border-top: 2px solid $light-grey;
+        padding: 30px 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        &:last-child {
+            border-bottom: 2px solid $light-grey;
+        }
+        &:before,
+        &.active:before {
+            position: absolute;
+            left: 0;
+            top: 32px;
+            color: $dark-green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            font-size: 44px;
+            line-height: 20px;
+        }
+        &:before {
+            content: "\002B";
+        }
+        &.active:before {
+            content: "\2212";
+        }
+        &-body {
+            padding-left: 50px;
+        }
+    }
+    &__btn {
+        font-family: $oswald-light, $sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        color: $dark-green;
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    &__content {
+        font-family: $oswald-light, $sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        color: $black;
+        cursor: default;
+        padding: 25px 0;
+        display: none;
+        @include breakpoint($mobile-bp) {
+            // text-align: center;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.hero {
+    background-image: url(../image/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    &__wrap {
+        max-width: 670px;
+        width: 100%;
+        text-align: right;
+        display: flex;
+        flex-flow: nowrap column;
+        align-items: flex-end;
+        @include breakpoint($tablet-bp) {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        min-height: calc(100vh - 80px);
+    }
+    &__title {
+        font-family: $oswald-regular, $sans-serif;
+        font-size: 55px;
+        line-height: 78px;
+        letter-spacing: 12px;
+        color: $second-white;
+        margin-bottom: 35px;
+        text-transform: uppercase;
+        @include breakpoint($tablet-bp) {
+            font-size: 42px;
+            line-height: 56px;
+            margin-bottom: 20px;
+        }
+    }
+    &__subtitle {
+        font-family: $oswald-light, $sans-serif;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 7px;
+        color: $second-white;
+        margin-bottom: 55px;
+        display: inline-block;
+        @include breakpoint($tablet-bp) {
+            margin-bottom: 32px;
+        }
+    }
+    &__btn {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 30px;
+        .icon-line {
+            margin-left: 15px;
+        }
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 10px;
+        .icon-arrow {
+            margin-left: 15px;
+        }
+    }
+    &__vertical {
+        position: absolute;
+        left: 60px;
+        bottom: 0;
+        transform: translateY(100%) rotate( 270deg);
+        transform-origin: left top;
+        display: flex;
+        align-items: center;
+        font-family: $oswald-regular;
+        font-size: 26px;
+        line-height: 28px;
+        color: $white;
+        letter-spacing: 1px;
+    }
+}
+
+.scroll {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 54px
+}

@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 21" width="11" height="21">
+	<title>Footer</title>
+	<defs>
+		<image width="13" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAYCAYAAAAh8HdUAAAAAXNSR0IArs4c6QAAAORJREFUOE/tlDESwUAUhv9Ho3MEV3ADdNnKOIEcQIaKlMpQGdHLEaKKkhtwA26g1fjNZsYkbDLYQmXL9+Z77/3/212BxRELBqWQ5zsuKUMBmvnC4SyRQmjgq0iIftEUhZDuAMq6bOxiaOLEgHS/g3x1AtHIIG6q15q7WMSXR8zQ5E0U811I9FbzJM7H3kPCzirY7gzIG6sRwbpOiMj0WY9E5O2U5io4h8E2Sju9jlS6cME+DJL2ryFfZUKJ1oumI4Sp3UIclrNkZO9evrKxpzLL/xDM527rnl5kenn14SeWf/I73QEfhI8ZAYekmQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Social Media ">
+			<use id="Facebook" href="#img1" transform="matrix(1,0,0,1,-1,-2)"/>
+		</g>
+	</g>
+</svg>

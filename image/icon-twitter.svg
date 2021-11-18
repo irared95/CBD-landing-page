@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 18" width="22" height="18">
+	<title>Footer</title>
+	<defs>
+		<image width="25" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAVCAYAAACzK0UYAAAAAXNSR0IArs4c6QAAAdRJREFUSEu9VTFSwlAQfZs4Yqc3kBuIJ5CSUOEJxJ44aYB0hi5oYQR74QRSCZ1wAvEGeAKhM45knU8MkBB+UGbYJs1m3763+/YTdhC0Awz8G8QwCkfT1NcdwFkAaQaGCrPTuOm1ReMlM5fd+zwYOk5nHALRq7mO6imWc/s8lDE0zFx6yvQK4Cgmry9AQXhv2l3RQJiJXtUYwJiJzx/snkiODd3U+mCcSRoZM8gi8iZNu9eKMJmBBOGobqom6C4X82VyP5JnSW+qu59dlcvURmAcLxUYMXNrT0HbsXujQGtiepGDLABW5CpVtAIRntYU6AM0AwK4KAUhDIJ5rM7EzBUBKibonagUE9oPdnfeSHQmQv/DxCoJCURUa9jPVpAWArky8xYzX28Lonp0umyDEMivwfoAn2wBNGnWuyH/xDper2gGCILun6WLSrUy+M1XdC3Pieqm0lFvxTIpmVqLGBd/loz4Ujg8+t/aA6n762xFzLkWN7q2y4nSK2yU85lvhR8JyMhYyQBiZyI2zEt9nTFQSHS2f2HvG/WuIWtizkTcf/LlkV3XRS3CQJ2SkfQsxDMp5zOeigKLx4hnMvlrTBjMvh46qsKd4GBushz/fhk3KR7k/ADZ0LsWq2o2iwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Footer">
+		<g id="Social Media ">
+			<use id="Twitter" href="#img1" transform="matrix(1,0,0,1,-2,-2)"/>
+		</g>
+	</g>
+</svg>

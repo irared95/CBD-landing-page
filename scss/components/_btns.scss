@@ -1,0 +1,25 @@
+.btn,
+.btn-second {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: $oswald-regular, $sans-serif;
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s linear;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.btn {
+    padding: 22px 38px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+}
+
+.btn-second {
+    padding: 24px 40px;
+    background-color: $dark-green2;
+}

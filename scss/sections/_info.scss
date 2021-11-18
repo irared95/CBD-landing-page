@@ -1,0 +1,33 @@
+.info {
+    padding: 100px 0 50px;
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 690px;
+        width: 100%;
+        padding: 50px 15px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(/image/green-border.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &__title {
+        font-family: $oswald-regular, $sans-serif;
+        font-size: 24px;
+        line-height: 26px;
+        color: $light-black;
+        letter-spacing: 5px;
+        margin-bottom: 26px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__image {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}

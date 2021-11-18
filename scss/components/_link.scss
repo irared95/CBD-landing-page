@@ -1,0 +1,10 @@
+.link {
+    font-family: $oswald-light, $sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: $second-white;
+    &:hover {
+        opacity: 0.8;
+    }
+}

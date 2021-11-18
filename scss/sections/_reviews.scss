@@ -1,0 +1,103 @@
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0 110px;
+    background-image: url(/image/slider-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 800px;
+    @include breakpoint($mobile-bp) {
+        padding-top: 60px;
+        min-height: auto;
+    }
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__stars {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-bottom: 40px;
+        @include breakpoint($mobile-bp) {
+            margin-bottom: 26px;
+        }
+        &-item {
+            margin-right: 4px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    &__wrap {
+        max-width: 770px;
+        width: 100%;
+    }
+    &__slider {
+        position: initial;
+        .slick-track {
+            display: flex;
+            align-items: center;
+        }
+        &-item {
+            text-align: center;
+        }
+        &-content {
+            font-family: $oswald-light, $sans-serif;
+            font-size: 22px;
+            line-height: 42px;
+            color: $white;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+            @include breakpoint($mobile-bp) {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+        &-name {
+            font-family: $oswald-regular, $sans-serif;
+            font-size: 24px;
+            line-height: 26px;
+            color: $white;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+    }
+    &__vertical {
+        position: absolute;
+        left: 60px;
+        bottom: 50px;
+        writing-mode: vertical-rl;
+        font-family: $oswald-light;
+        font-size: 24px;
+        line-height: 26px;
+        color: $second-white;
+        letter-spacing: 4px;
+        @include breakpoint($mobile-bp) {
+            display: none;
+        }
+    }
+    &__arrow {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        cursor: pointer;
+        border: 1px solid $second-white;
+        padding: 40px 40px;
+        display: flex;
+        &-prev {
+            left: 50%;
+            margin-left: -45px;
+            transform: translate(-70%);
+        }
+        &-next {
+            right: 50%;
+            margin-right: -76px;
+            transform: translate(30%);
+        }
+    }
+}

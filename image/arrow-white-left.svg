@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20" width="40" height="20">
+	<title>Testimonials</title>
+	<defs>
+		<image width="44" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAYCAYAAACBbx+6AAAAAXNSR0IArs4c6QAAALtJREFUWEfV19ENwjAMRdH7NugmwAawCWwGEzAC7QSwUVCk/DRN0/zlxQv4xLJsRwwWGsxLMziEMAFvYJJ06fXQJnDCfoAz8JJ0twU7YWORqhV2w1bBjthdsCu2CHbGbsDu2BV4BGwO/qY522vE1vLOkm45+AecHLXAIulaaok5oZ+SHo741eJIfWyN3mw6d3RxNTujd28JV3TL8WPV04f3sFulD8FxtDmhm8AZGknx59ElmsFddIWkw4H/GvhiGZ3zjn4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Testimonials">
+		<g id="Arrows">
+			<use id="Left " href="#img1" transform="matrix(1,0,0,1,-2,-2)"/>
+		</g>
+	</g>
+</svg>

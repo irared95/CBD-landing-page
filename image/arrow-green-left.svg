@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20" width="40" height="20">
+	<title>Featured products</title>
+	<defs>
+		<image width="41" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAVCAYAAADb2McgAAAAAXNSR0IArs4c6QAAANZJREFUSEvN1jEOwiAUBuD3JtbeRL2Bjjp5BN016dYrlJkeQE/gVkbrCex1amwwYNKEtIWp4WeFwEcI/3tMkZHnx6wX3cMQZZXUm9j6JeY5tKkFfkX3ZKK1YbpXpT4tgYjtOYtEAdoLTCKRgJNINOAIiQj0kKjAAYkMdEh0oENeiv3b5mAsqxLNN0rqHV+LQ0tkVokQ4WOZXqrUW/fcvfg0fyjflKzPaGAX5ujQoeIgQ72yiAod1W5E6GyDgfSZgq0aCjTa9CJAg0g/noiUrJNUpigSIdh/TzmYFgfclT8AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Featured products">
+		<use id="Left" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+	</g>
+</svg>

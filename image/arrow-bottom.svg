@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 16" width="30" height="16">
+	<title>Intro</title>
+	<defs>
+		<image width="32" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAARCAYAAAC8XK78AAAAAXNSR0IArs4c6QAAAM1JREFUSEvF1eENgjAQQOF3G7iBI+gGwghO6gjqBrqBI7DBmSOFaLX0WmnkHw3kfWmTq/DnR6yvqhdgCxxF5NbSpKp74AQ8RKR/BRyAAehbIUL8DGyAq4h0E8AWbBd2rRBR/A50IjKMgHAMzRCpuHVnQCvEUvwDsDYiF/8KWAvhiScBvyK88UVALaIkngWUIkrjLoAXURN3A3KI2ngRIIUIc2war/OE894nb4PI85OqxhPTfrO14njxDiTGti1XxasB0XHY63ixeHYw/uYJLhGnEt8WtmkAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Intro">
+		<use id="Arrow" href="#img1" transform="matrix(1,0,0,1,-1,-1)"/>
+	</g>
+</svg>
