@@ -37,6 +37,10 @@
             line-height: 56px;
             margin-bottom: 20px;
         }
+        @include breakpoint($mobile-bp) {
+            font-size: 20px;
+            line-height: 38px;
+        }
     }
     &__subtitle {
         font-family: $oswald-light, $sans-serif;
@@ -48,6 +52,9 @@
         display: inline-block;
         @include breakpoint($tablet-bp) {
             margin-bottom: 32px;
+        }
+        @include breakpoint($mobile-bp) {
+            font-size: 18px;
         }
     }
     &__btn {
@@ -81,6 +88,9 @@
         line-height: 28px;
         color: $white;
         letter-spacing: 1px;
+        @include breakpoint($mobile-bp) {
+            display: none;
+        }
     }
 }
 
@@ -89,5 +99,8 @@
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 54px
+    bottom: 54px;
+    @include breakpoint($mobile-bp) {
+        bottom: 30px;
+    }
 }

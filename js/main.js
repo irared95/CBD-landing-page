@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // const burger = document.querySelector('.burger--js');
-    // const navMenu = document.querySelector('.nav__menu--js');
+    const burger = document.querySelector('.burger--js');
+    const navMenu = document.querySelector('.nav--js');
+    console.log(navMenu)
 
-    // burger.addEventListener('click', function() {
-    //     navMenu.classList.toggle('active');
-    // })
+    burger.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+    })
 
-    //href scroll
+
     document.querySelectorAll('.scroll-link--js').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();

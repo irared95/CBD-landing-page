@@ -12,6 +12,9 @@
         height: 3px;
         background-color: $second-white;
         margin-right: 30px;
+        @include breakpoint($tablet-bp) {
+            display: none;
+        }
     }
     &-arrow {
         transform: translateX(0);
