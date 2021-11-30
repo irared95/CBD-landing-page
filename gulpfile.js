@@ -9,7 +9,7 @@ function liveReload() {
         server: './'
     })
     gulp.watch('./*.html').on('change', browserSync.reload)
-    gulp.watch('./scss/*.scss', compileStyles)
+    gulp.watch('./scss/**/*.scss', compileStyles)
 }
 
 function compileStyles() {
